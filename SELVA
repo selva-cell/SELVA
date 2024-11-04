@@ -1,0 +1,24 @@
+import {useState} from "react";
+import "./App.css";
+function App(){
+  const [List,SetList]=useState([]);
+  const [Value,SetValue]=useStateI("");
+  let tempArr=List=List;
+  tempArr.push(value);
+  SetList(tempArr);
+  SetValue("");
+  
+};
+const deleteItem=(index)=>{
+  let temp=list.filter((iten.i)=> i !==index)l;
+  SetList(temp);
+}
+return(
+  <div className="App">
+    <fieldset>
+      <h>Add Product to list</h><br></br>
+      <input type="text" value={value} onChange={(e) => Set Value(e.target.value)}/>
+      
+    </fieldset>
+  </div>
+)
